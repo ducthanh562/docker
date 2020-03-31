@@ -6,7 +6,7 @@ set -e
 ECHO_PREFIX="[docker-entrypoint.sh]"
 
 # location of master
-export ROS_MASTER_URI=http://nils:11311/
+export ROS_MASTER_URI=http://z-ThinkPad-T430:44561/
 echo "$ECHO_PREFIX" "set ROS master: " "$ROS_MASTER_URI"
 
 # ROS installation
